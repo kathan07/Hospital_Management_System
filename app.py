@@ -300,12 +300,6 @@ def addprescribes():
     return render_template('prescribes.html', allprescribes=allprescribes)
 
 
-
-
-
-
-
-
 # Updates all the tables
 
 @app.route('/updatepatient/<int:pat_id>', methods=['GET', 'POST'])
